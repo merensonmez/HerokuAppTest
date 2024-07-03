@@ -37,7 +37,6 @@ public class HerokuAppTest {
         }else {
             System.out.println("Login NOT successful.`");
         }
-
         WebElement logoutButton = driver.findElement(By.cssSelector(".button.secondary.radius"));
         logoutButton.click();
 
